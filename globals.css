@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.parentcontainer{
+  display: flex;
+  border: 3px solid burlywood;
+  align-items:center;
+  justify-content: space-evenly;
+  background-attachment: fixed;
+  background-color: peachpuff;
+}
+
+.childcontainer {
+  width: fit-content;
+  height: 500px;
+  margin: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  border:none;
+  justify-content: baseline;
+  transition: all;
+}
+.image-frame {
+  border: 5px solid burlywood; 
+  padding: 0px;       
+  display:block;
+}
+img {
+  width: 500px;         
+  height: 300px;
+}
+
+
+.blueColor {
+  color: rgb(234, 62, 62);
+}
+h1{
+  color:rgb(203, 118, 13);
+  font-size: larger;
+  font-weight: bold;
+}
+p{
+  color: rgb(203, 118, 13);
+}
